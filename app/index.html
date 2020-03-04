@@ -1,0 +1,30 @@
+</!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" data-main="/scripts/main.js" src="/scripts/require.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/him.css" />
+    <link rel="stylesheet" href="/css/semantic-ui.css" />
+    <script type="text/javascript" src="/scripts/tsne.js"></script>
+    
+    <script type="application/javascript">
+        window.defaultDataLoaded = false
+        parseResponse = (data) => {
+            window.demoDefaultData = data
+            window.defaultDataLoaded = true
+        }
+    </script>
+</head>
+
+<body>
+        <p>
+            HELLO THERE! 
+        </p>
+        <p>
+            This page is supposed to be served through a web server
+        </p>
+    <div id="tsne-simulator-container" style="width:inherit; height:inherit;">
+    </div>
+</body>
+
+</html>
